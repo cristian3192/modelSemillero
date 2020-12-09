@@ -1,6 +1,7 @@
 package com.clearminds.ccc.dtos;
 
-public class Estudiante {
+
+public class Estudiante  {
 	
 	private String nombre;
 	private String apellido;
@@ -17,6 +18,10 @@ public class Estudiante {
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
+	}
+	
+	public Estudiante (){
+		
 	}
 
 	@Override
